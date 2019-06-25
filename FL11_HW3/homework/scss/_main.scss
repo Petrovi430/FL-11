@@ -9,10 +9,7 @@
 		margin-top: 2px;
 		margin-bottom: 5px;
 		width: 85px;
-		line-height: 29px;
-		font-weight: bold;
-		font-size: 30px;
-	    font-family: $fontFamily, sans-serif;
+		font: bold 30px/29px $fontFamily, sans-serif;
 		text-align: center;
 		color: $color;
 		span {
@@ -86,9 +83,7 @@ header {
 	    	margin-top: 41px;
 	    	margin-bottom: 76px;
 	    	width: 840px;
-	    	line-height: 30px;
-	    	font-size: 18px;
-	    	font-family: $fontFamily, sans-serif;
+	    	font: 18px/30px $fontFamily, sans-serif;
 	    	white-space: pre-line;
 	    	letter-spacing: 1px;
 	    	color: $textColor;
@@ -113,7 +108,7 @@ main {
 		&::after {
 			position: absolute;
 			top: 60%;
-			right: 33.8%;
+			right: 33.6%;
 			content: '';
 			width: 239px;
 			height: 16px;
@@ -140,9 +135,7 @@ main {
 				display: inline-block;
 				padding-top: 15px;
 				color: #fff;
-				font-size: 27px;
-				font-weight: bold;
-				font-family: 'Hind', sans-serif;
+				font: bold 27px 'Hind', sans-serif;
 				z-index: 1;
 				.section_card_underline {
 					position: absolute;
@@ -161,10 +154,8 @@ main {
 				align-items: center;
 				padding-top: 12px;
 				height: 162px;
-				line-height: 30px;
+				font: 20px/30px $fontFamily, sans-serif;
 				color: $cardColorText;
-				font-size: 20px;
-	    		font-family: $fontFamily, sans-serif;
 			}
 		}
 	}
@@ -199,9 +190,7 @@ main {
 			}
 			.section_banner_text {
 				padding-bottom: 23px;
-				color: #7C8B9D;
-				font-size: 18px;
-	    		font-family: $fontFamily, sans-serif;
+				font: 18px $fontFamily, sans-serif;
 				color: $bannerColorText;
 			}
 		}
@@ -219,7 +208,6 @@ footer {
 	padding-top: $paddingFooter;
 	padding-bottom: 70px;
 	background: $cardFooterBackground;
-	color: #868B9D;
 	.footer-wrap {
 		margin: 0 auto;
     	width: 1522px;
@@ -233,14 +221,11 @@ footer {
     	}
 		.footer_text {
 			width: 386px;
-			line-height: 25px;
-			font-size: 18px;
-	    	font-family: $fontFamily, sans-serif;
+			font: 18px/25px $fontFamily, sans-serif;
 	    	color: $footerColorText;
 		}
 		.footer-cr {
-			font-size: 20px;
-	    	font-family: $fontFamily, sans-serif;
+			font: 20px $fontFamily, sans-serif;
 	    	color: $footerColorText;
 		}
 	}
