@@ -1,0 +1,709 @@
+body {
+  font-family: roboto;
+}
+.post-1 {
+	background: #B71757;
+}
+.post-2 {
+	background: #0D7E71;
+}
+.post-3 {
+	background: #b1660e;
+}
+.post-4 {
+	background: #d12767;
+}
+.post-5 {
+	background: #2d95bb;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0b192f;
+}
+
+body::-webkit-scrollbar { 
+      display: none; 
+}
+
+body #wrapper {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 65px;
+  background: #162b4d;
+}
+
+header .sandwich-menu {
+  display: none;
+}
+
+header .logo {
+  height: 115px;
+  padding-bottom: 20px;
+}
+
+header .logo h1 {
+  line-height: 105px;
+  font-weight: 100;
+  font-size: 43px;
+  color: #fff;
+}
+
+header .logo span {
+  color: #A30617;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+  list-style-type: none;
+  text-align: center;
+}
+
+header nav a {
+  display: inline-block;
+  padding: 0 26px;
+  line-height: 115px;
+  font-weight: 100;
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  background: rgba(184, 184, 184, .1);
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 23px;
+}
+
+main .container {
+  width: 74.5%;
+}
+
+main .container h2 {
+  line-height: 60px;
+  font-weight: 100;
+  font-size: 60px;
+  color: #fff;
+  letter-spacing: -1px;
+  margin-bottom: 6%;
+}
+
+main .container p {
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+main .container .item {
+  position: relative;
+  display: flex;
+}
+
+main .container .item .hover {
+  display: none;
+}
+
+main .container .item:hover .hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: .6;
+  cursor: pointer;
+}
+
+main .container .item:nth-of-type(1):hover .hover {
+  background: #B71757;
+}
+main .container .item:nth-of-type(2):hover .hover {
+  background: #0D7E71;
+}
+
+main .container .item:nth-of-type(3):hover .hover {
+  background: #b1660e;
+}
+
+main .container .item:nth-of-type(4):hover .hover{
+  background: #d12767;
+}
+
+
+main .container .item .content:hover {
+  cursor: pointer;
+}
+
+main .container .item .image,
+main .container .item .content {
+  width: 50%;
+}
+
+main .container .item:nth-of-type(odd) .image,
+main .container .item:nth-of-type(even) .content {
+  order: 1;
+  text-align: right;
+  padding: 4% 4% 4.5% 13%;
+}
+
+main .container .item:nth-of-type(even) .image,
+main .container .item:nth-of-type(odd) .content {
+  order: 2;
+  text-align: left;
+  padding: 4% 13% 4% 4.5%;
+}
+
+main .container .item:nth-of-type(5) .content {
+  padding-right: 10%;
+}
+
+main .container .post-1 .image {
+  background: url(../img/post1.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+main .container .post-2 .image {
+  background: url(../img/post2.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+main .container .post-3 .image {
+  background: url(../img/post3.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+main .container .post-4 .image {
+  background: url(../img/post4.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+main .container .item .content {
+  position: relative;
+}
+
+main .container .item .content .date {
+  position: absolute;
+  top: 5%;
+  width: 65px;
+  line-height: 48px;
+  font-weight: 100;
+  font-size: 32px;
+  text-align: center;
+}
+
+main .container .item .content span {
+  font-size: 60px;
+}
+
+main .container .item:nth-of-type(odd) .content .date {
+  right: 2%;
+}
+
+main .container .item:nth-of-type(even) .content .date {
+  left: 5%;
+}
+
+main .container .item:nth-of-type(5) .content .date {
+  top: 10%;
+  right: 1%;
+}
+
+main .container .post-1  .content {
+  min-height: 485px;
+  color: #C0577C;
+}
+
+main .container .post-2  .content {
+  min-height: 395px;
+  color: #579890;
+}
+
+main .container .post-3  .content {
+  min-height: 432px;
+  color: #BE8A58;
+}
+
+main .container .post-4  .content {
+  min-height: 437px;
+  color: #D6648A;
+}
+
+main .container .post-5  .content {
+  width: 100%;
+  min-height: 230px;
+  color: #67A8C4;
+}
+
+main .container .post-5  .content p {
+  margin-top: -3%;
+}
+
+main aside {
+  width: 23.7%;
+}
+
+main aside .item {
+  margin-bottom: 25px;
+}
+
+main aside .item:nth-of-type(1) .image {
+  height: 155px;
+  background: url(../img/news1.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+main aside .item:nth-of-type(2) .image {
+  height: 225px;
+  background: url(../img/news2.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+main aside .item .content {
+  padding: 12%;
+  background: #fff;
+}
+
+main aside .item .content h2 {
+  line-height: 35px;
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+main aside .item .content p {
+  line-height: 27px;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 125px;
+  padding: 2.5%;
+  background: #162b4d;
+  line-height: 28px;
+  font-weight: 100;
+  font-size: 18px;
+  color: #637693;
+}
+
+footer .name {
+  margin-top: -10px;
+  display: inline-block;
+  width: 146px;
+  line-height: 22px;
+}
+
+@media (max-width: 1400px) {
+  header {
+    margin-bottom: 1.3vw;
+    padding-left: 1.5vw;
+    padding-right: 3.3vw;
+  }
+
+  header .logo {
+    height: 6vw;
+    margin-bottom: 0vw;
+  }
+
+  header .logo h1 {
+    line-height: 5.5vw;
+    font-size: 2.3vw;
+  }
+
+  header nav a {
+    padding: 0 1.35vw;
+    line-height: 5vw;
+    font-size: 1.14vw;
+  }
+
+  main {
+    margin-bottom: 1.2vw;
+  }
+
+  main .container .post-1 .content {
+    min-height: 25.2vw;
+  }
+
+  main .container h2 {
+    line-height: 3.1vw;
+    font-size: 3.1vw;
+  }
+
+  main .container p {
+    line-height: 1.6vw;
+    font-size: 1vw;
+  }
+
+  main .container .item .content .date {
+    width: 3.5vw;
+    line-height: 2.6vw;
+    font-size: 1.8vw;
+  }
+
+  main .container .item .content span {
+    font-size: 3vw;
+  }
+
+  main .container .post-2 .content {
+    min-height: 20.8vw;
+  }
+
+  main .container .post-3 .content {
+    min-height: 20vw;
+  }
+
+  main .container .post-4 .content {
+    min-height: 22.8vw;
+  }
+
+  main .container .post-5 .content {
+
+  }
+}
+
+@media (max-width: 768px) {
+
+  body #wrapper {
+    max-width: 97.5vw;
+    margin-bottom: 1vw;
+  }
+
+  header {
+    padding: 0;
+    height: 25vw;
+    margin-bottom: 2.7vw;
+    flex-direction: column;
+  }
+
+  header .sandwich-menu {
+    display: block;
+    margin-top: 3vw;
+  }
+  
+  header .sandwich-menu div{
+    width: 12px;
+    height: 1px;
+    background-color: #fff;
+    margin: 3px 0;
+  }
+
+  header .logo {
+    margin-top: 1vw;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  header .logo h1 {
+    line-height: 15vw;
+    font-size: 4.6vw;
+  }
+
+  header nav {
+    display: none;
+  }
+  
+  main .container {
+    width: 56vw;
+  }
+
+  main aside {
+    width: 39vw;
+  }
+
+  main .container .item {
+    flex-direction: column;
+  }
+
+  main .container .item:nth-of-type(odd) .content{
+    padding: 4.5vw 5vw 2.5vw;
+  } 
+
+  main .container .item:nth-of-type(even) .content {
+    padding: 4.5vw 5vw 2.5vw;
+  }
+
+  main .container h2 {
+    line-height: 6vw;
+    font-size: 6vw;
+  }
+
+  main .container p {
+    font-weight: 400;
+    line-height: 3vw;
+    font-size: 1.8vw;
+  }
+  
+  main .container .item:nth-of-type(odd) .image{
+    order: 1;
+  } 
+
+  main .container .item:nth-of-type(even) .image {
+    order: 1;
+  }
+
+  main .container .item:nth-of-type(odd) .content {
+    order: 2;
+    text-align: left;
+  }
+
+  main .container .item:nth-of-type(even) .content {
+    order: 2;
+    text-align: left;
+  }
+
+  main .container .item:nth-of-type(1) .image {
+    width: 100%;
+    height: 52vw;
+  }
+
+  main .container .post-1 .content {
+    margin-bottom: 0;
+    width: 100%;
+    min-height: auto;
+  }
+
+  main .container .post-3 .content {
+    min-height: auto;
+  }
+
+  main .container .post-4 .content {
+    min-height: auto;
+  }
+
+  main .container .item:nth-of-type(2) .image, 
+  main .container .item:nth-of-type(2) .content {
+    width: 100%;
+    height: 42.3vw;
+  }
+
+  main .container .item:nth-of-type(3) .image {
+    width: 100%;
+    height: 46.7vw;
+  }
+
+  main .container .item:nth-of-type(3) .content {
+    width: 100%;
+  }
+
+  main .container .item:nth-of-type(4) .image {
+    width: 100%;
+    height: 47vw;
+  }
+
+  main .container .item:nth-of-type(4) .content {
+    width: 100%;
+  }
+
+  main .container .item:nth-of-type(5) .content {
+    width: 100%;
+    height: 52vw;
+  }
+
+  main .container .item .content .date {
+    position: static;
+    margin: 7vw auto 0vw;
+    line-height: 5vw;
+    font-weight: 300;
+    font-size: 3.5vw;
+  }
+
+  main .container .item .content span {
+    font-size: 6.5vw;    
+  }
+
+  main .container .post-5 .content p {
+    margin-top: 1vw;
+  }
+
+  main aside .item {
+    margin-bottom: 2vw;
+  }
+
+  main aside .item:nth-of-type(1) .image {
+    height: 18vw;
+  }
+
+  main aside .item:nth-of-type(2) .image {
+    height: 27vw;
+  }
+  
+  main aside .item .content {
+    padding: 4.2vw;
+  }
+
+  main aside .item .content h2 {
+    line-height: 4vw;
+    font-size: 3.2vw;
+    margin-bottom: 1vw;
+  }
+
+  main aside .item .content p {
+    line-height: 2.9vw;
+    font-size: 1.7vw;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    height: 17.5vw;
+    padding: 3vw;
+    line-height: 3vw;
+    font-size: 1.9vw;
+  }
+
+  footer .name {
+    width: 17vw;
+  }
+}
+
+@media (max-width: 480px) {
+  body #wrapper {
+    max-width: 95.5vw;
+    margin-bottom: 1vw;
+  }
+
+  header {
+    height: 41vw;
+    margin-bottom: 4.5vw;
+  }
+
+  header .sandwich-menu {
+    margin-top: 5vw;
+  }
+
+  header .sandwich-menu div {
+    width: 15px;
+    margin: 4px 0;
+  }
+
+  header .logo h1 {
+    line-height: 25vw;
+    font-size: 7.3vw;
+  }
+  
+  main {
+    flex-direction: column;
+  }
+
+  main .container {
+    width: 100%;
+  }
+
+  main .container .item:nth-of-type(odd) .content, 
+  main .container .item:nth-of-type(even) .content {
+    padding: 7.5vw 8vw 3.5vw;
+  }
+
+  main .container .item:nth-of-type(1) .image {
+    height: 89vw;
+  }
+
+  main .container .item:nth-of-type(2) .image {
+    height: 73vw;
+  }
+
+  main .container .item:nth-of-type(3) .image {
+    height: 79.5vw;
+  }
+
+  main .container .item:nth-of-type(4) .image {
+    height: 80.5vw;
+  }
+
+  main .container .item:nth-of-type(5) {
+    height: 86vw;
+  }
+  
+  main .container h2 {
+    line-height: 10vw;
+    font-size: 10vw;
+  }
+
+  main .container p {
+    line-height: 4.8vw;
+    font-size: 3vw;
+  } 
+
+  main .container .item .content .date {
+    margin-top: 12vw;
+    line-height: 8vw;
+    font-size: 5.5vw;
+  }
+
+  main .container .item:nth-of-type(2) .content {
+    margin-bottom: 3vw;
+  }
+
+  main .container .item .content span {
+    font-size: 11.5vw;
+  }
+
+  main aside {
+    width: 100%;
+  }
+
+  main aside .item {
+    margin-bottom: 4vw;
+  }
+
+  main aside .item:nth-of-type(1) .image {
+    height: 45vw;
+  }
+
+  main aside .item:nth-of-type(2) .image {
+    height: 65vw;
+  }
+
+  main aside .item .content {
+    padding: 7.2vw;
+  }
+
+  main aside .item .content h2 {
+    line-height: 4vw;
+    font-size: 5.5vw;
+    margin-bottom: 4vw;
+  }
+
+  main aside .item .content p {
+    line-height: 4.6vw;
+    font-size: 2.8vw;
+  }
+
+  footer {
+    height: 33vw;
+    padding: 5vw 8vw;
+    line-height: 4.8vw;
+    font-size: 3.2vw;
+  }
+
+  footer .name {
+    margin-top: 0vw;
+    width: 27vw;
+  }
+}
