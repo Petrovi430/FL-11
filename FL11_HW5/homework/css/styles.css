@@ -384,6 +384,35 @@ footer .name {
   main .container .post-5 .content {
 
   }
+
+  main aside .item {
+    margin-bottom: 1.4vw;
+  }
+
+  main aside .item:nth-of-type(1) .image {
+    height: 8vw;
+  }
+  
+  main aside .item:nth-of-type(2) .image {
+    height: 11.9vw;
+  }
+
+  main aside .item .content h2 {
+    line-height: 2vw;
+    font-size: 1.7vw;
+    margin-bottom: 0.5vw;
+  }
+
+  main aside .item .content p {
+    line-height: 1.4vw;
+    font-size: 0.9vw;
+  }
+
+  footer {
+    height: 7vw;
+    line-height: 1.5vw;
+    font-size: 1vw;
+  }
 }
 
 @media (max-width: 768px) {
