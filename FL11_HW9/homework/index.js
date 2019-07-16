@@ -118,7 +118,7 @@ function getAmountOfAdultPeople(data) {
 		ages.push(age);
 	}
 	let adultPeople = filterArray(ages, function(el) {
-		return el>adult;
+		return el>=adult;
 	});
 	return adultPeople.length;
 }
